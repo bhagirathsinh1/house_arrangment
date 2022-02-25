@@ -1,0 +1,26 @@
+{
+    "sourceFile": "lib/main.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1645770730759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1645770939571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import 'package:flutter/material.dart';\r\n+import 'package:map_demo/screen/home_screen.dart';\r\n \r\n void main() {\r\n   runApp(const MyApp());\r\n }\r\n"
+                },
+                {
+                    "date": 1645774794876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import 'package:flutter/material.dart';\r\n-import 'package:map_demo/screen/home_screen.dart';\r\n+import 'package:map_demo/screen/login_page.dart';\r\n \r\n void main() {\r\n   runApp(const MyApp());\r\n }\r\n"
+                }
+            ],
+            "date": 1645770730759,
+            "name": "Commit-0",
+            "content": "import 'package:flutter/material.dart';\r\n\r\nvoid main() {\r\n  runApp(const MyApp());\r\n}\r\n\r\nclass MyApp extends StatelessWidget {\r\n  const MyApp({Key? key}) : super(key: key);\r\n\r\n  // This widget is the root of your application.\r\n  @override\r\n  Widget build(BuildContext context) {\r\n    return MaterialApp(\r\n      debugShowCheckedModeBanner: false,\r\n      title: 'Flutter Demo',\r\n      theme: ThemeData(\r\n        primarySwatch: Colors.blue,\r\n      ),\r\n      home: LoginPage(),\r\n    );\r\n  }\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "lib/screen/login_page.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1645774885051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1645774885051,
+            "name": "Commit-0",
+            "content": "import 'package:flutter/material.dart';\r\nimport 'package:map_demo/common%20widget/login_button.dart';\r\nimport 'package:map_demo/screen/home_screen.dart';\r\n\r\nclass LoginPage extends StatefulWidget {\r\n  LoginPage({Key? key}) : super(key: key);\r\n\r\n  @override\r\n  State<LoginPage> createState() => _LoginPageState();\r\n}\r\n\r\nclass _LoginPageState extends State<LoginPage> {\r\n  @override\r\n  Widget build(BuildContext context) {\r\n    return Scaffold(\r\n      appBar: AppBar(\r\n        title: Text('Home Screen'),\r\n      ),\r\n      body: Container(\r\n        width: MediaQuery.of(context).size.width,\r\n        height: MediaQuery.of(context).size.height,\r\n        decoration: BoxDecoration(\r\n          gradient: LinearGradient(\r\n            colors: [\r\n              Colors.blue,\r\n              Colors.white,\r\n            ],\r\n            begin: Alignment.topLeft,\r\n            end: Alignment.bottomRight,\r\n          ),\r\n        ),\r\n        child: Column(\r\n          mainAxisAlignment: MainAxisAlignment.spaceEvenly,\r\n          children: [\r\n            InkWell(\r\n                onTap: () {\r\n                  Navigator.push(\r\n                    context,\r\n                    MaterialPageRoute(\r\n                        builder: (context) =>\r\n                            HomeScreen(columnvalue: 5, rowvalue: 5)),\r\n                  );\r\n                },\r\n                child: LoginButton(buttonName: \"House Owner\")),\r\n            LoginButton(buttonName: \"Society Secretary\"),\r\n            LoginButton(buttonName: \"Society Owner\"),\r\n          ],\r\n        ),\r\n      ),\r\n    );\r\n  }\r\n}\r\n"
+        }
+    ]
+}
