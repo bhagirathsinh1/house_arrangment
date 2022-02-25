@@ -58,7 +58,9 @@ class _ChairListState extends State<HomeArrangemnt> {
     houseOwnerName[3][4] = null;
     houseOwnerName[2][1] = null;
     houseOwnerName[3][3] = null;
-    houseOwnerName[1][2] = null;
+    houseOwnerName[1][3] = null;
+    houseOwnerName[1][1] = "Formics.io";
+    houseNumber[1][1] = "205";
 
     print('<<-----------$houseOwnerName----------->>');
     print('<<-----------$houseNumber----------->>');

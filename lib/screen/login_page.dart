@@ -41,7 +41,7 @@ class _LoginPageState extends State<LoginPage> {
                             HomeScreen(columnvalue: 5, rowvalue: 5)),
                   );
                 },
-                child: LoginButton(buttonName: "House Owner ")),
+                child: LoginButton(buttonName: "House Owner")),
             // LoginButton(buttonName: "Society Secretary"),
             // LoginButton(buttonName: "Society Owner"),
           ],

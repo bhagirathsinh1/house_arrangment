@@ -17,15 +17,16 @@ class _SeatSelectorState extends State<HomeScreen> {
   void initState() {
     super.initState();
     // setState(() {
-    withoutDetailHouse = 4;
-    unsoldHouse = widget.rowvalue * widget.columnvalue - withoutDetailHouse;
+    unsoldHouse = widget.rowvalue * widget.columnvalue -
+        withoutDetailHouse -
+        withDetailHouse;
 
     // });
   }
 
   int unsoldHouse = 0;
-  int withDetailHouse = 0;
-  int withoutDetailHouse = 0;
+  int withDetailHouse = 1;
+  int withoutDetailHouse = 4;
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

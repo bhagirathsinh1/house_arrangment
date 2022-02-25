@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1645771865873,
@@ -24,6 +24,10 @@
                 {
                     "date": 1645772366646,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,16 +28,16 @@\n           child: Row(\r\n             mainAxisAlignment: MainAxisAlignment.center,\r\n             mainAxisSize: MainAxisSize.max,\r\n             children: [\r\n+              Text(\r\n+                buttonName,\r\n+                style: TextStyle(color: Colors.black),\r\n+              ),\r\n               IconButton(\r\n                 icon: new Icon(Icons.arrow_forward),\r\n                 onPressed: () {},\r\n               ),\r\n-              Text(\r\n-                buttonName,\r\n-                style: TextStyle(color: Colors.black),\r\n-              )\r\n             ],\r\n           ),\r\n         ),\r\n       ),\r\n"
+                },
+                {
+                    "date": 1645792602587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n                 buttonName,\r\n                 style: TextStyle(color: Colors.black),\r\n               ),\r\n               IconButton(\r\n-                icon: new Icon(Icons.arrow_forward),\r\n+                icon: new Icon(Icons.arrow_forward, color: Colors.black),\r\n                 onPressed: () {},\r\n               ),\r\n             ],\r\n           ),\r\n"
                 }
             ],
             "date": 1645771865873,

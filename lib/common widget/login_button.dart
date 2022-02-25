@@ -34,7 +34,7 @@ class LoginButton extends StatelessWidget {
                 style: TextStyle(color: Colors.black),
               ),
               IconButton(
-                icon: new Icon(Icons.arrow_forward),
+                icon: new Icon(Icons.arrow_forward, color: Colors.black),
                 onPressed: () {},
               ),
             ],
