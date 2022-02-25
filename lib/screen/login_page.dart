@@ -42,8 +42,8 @@ class _LoginPageState extends State<LoginPage> {
                   );
                 },
                 child: LoginButton(buttonName: "House Owner")),
-            LoginButton(buttonName: "Society Secretary"),
-            LoginButton(buttonName: "Society Owner"),
+            // LoginButton(buttonName: "Society Secretary"),
+            // LoginButton(buttonName: "Society Owner"),
           ],
         ),
       ),

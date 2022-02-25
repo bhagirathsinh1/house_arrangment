@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1645774885051,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1645792083269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,10 +41,10 @@\n                             HomeScreen(columnvalue: 5, rowvalue: 5)),\r\n                   );\r\n                 },\r\n                 child: LoginButton(buttonName: \"House Owner\")),\r\n-            LoginButton(buttonName: \"Society Secretary\"),\r\n-            LoginButton(buttonName: \"Society Owner\"),\r\n+            // LoginButton(buttonName: \"Society Secretary\"),\r\n+            // LoginButton(buttonName: \"Society Owner\"),\r\n           ],\r\n         ),\r\n       ),\r\n     );\r\n"
                 }
             ],
             "date": 1645774885051,
